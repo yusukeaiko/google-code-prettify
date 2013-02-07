@@ -7,9 +7,13 @@
 # Ignore Emacs's backup files.
 *~
 
-# Ignore find(Mac's filer) config files.
+# OS generated files #
+######################
 .DS_Store
-
-# Ignore other developer's code
-elisp/*
-el-get/*
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
